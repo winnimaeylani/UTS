@@ -6,10 +6,10 @@
 <body>
 
     <form method="POST" name="frmpost" action="">
-        <table align="center" border="3" cellpadding="2" cellspacing="5">
+        <table width="500" align="center" border="3" cellpadding="2" cellspacing="10">
             <tr align="center">
                 <td>
-                    <h2><b><u>Silahkan Masukkan Data</u></b></h2>
+                    <h2><b><u>Silahkan Masukkan Data Covid19</u></b></h2>
                 </td>
             </tr>
             <tr>
@@ -31,32 +31,32 @@
                         <tr>
                             <td>Jumlah Positif</td>
                             <td> : </td>
-                            <td><input type="text" name="positif" size="40"></td>
+                            <td><input type="text" name="positif" size="30"></td>
                         </tr>
                         <tr>
                             <td>Jumlah Dirawat</td>
                             <td> : </td>
-                            <td><input type="text" name="rawat" size="40"></td>
+                            <td><input type="text" name="rawat" size="30"></td>
                         </tr>
                         <tr>
                             <td>Jumlah Sembuh</td>
                             <td> : </td>
-                            <td><input type="text" name="sembuh" size="40"></td>
+                            <td><input type="text" name="sembuh" size="30"></td>
                         </tr>
                         <tr>
                             <td>Jumlah Meninggal</td>
                             <td> : </td>
-                            <td><input type="text" name="meninggal" size="40"></td>
+                            <td><input type="text" name="meninggal" size="30"></td>
                         </tr>
                         <tr>
                             <td>Nama Operator</td>
                             <td> : </td>
-                            <td><input type="text" name="nama" size="40"></td>
+                            <td><input type="text" name="nama" size="30"></td>
                         </tr>
                         <tr>
                             <td>Nim Mahasiswa</td>
                             <td> : </td>
-                            <td><input type="text" name="nim" size="40"></td>
+                            <td><input type="text" name="nim" size="30"></td>
                         </tr>
                         <tr>
                             <td colspan="2" align="center"><input type="submit" name="btnOk" value="Simpan"></td>
@@ -98,10 +98,10 @@
         echo '<table border="1" cellpadding="10" cellspacing="0">';
         echo '<thead>';
         echo '<tr>
-                <th>Positif</th>
-                <th>Dirawat</th>
-                <th>Sembuh</th>
-                <th>Meninggal</th>
+                <th>Jumlah Positif</th>
+                <th>Jumlah Dirawat</th>
+                <th>Jumlah Sembuh</th>
+                <th>Jumlah Meninggal</th>
                 </tr>';
         echo ' </thead>';
         echo '<tbody>
